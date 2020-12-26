@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::group(['prefix'=>'admin'],function(){
+
+    
+});
+
+
+Route::group(['prefix'=>'frontend'],function(){
+    
+});
+
+Route::get('sentmail','MailController@basic_email');

@@ -1,0 +1,27 @@
+
+.product_img{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 105px;
+    display: none;
+  }
+
+.card:hover .product_img{
+    
+}
+div.product_img ul{
+  background-color: rgb(245, 236, 236);
+}
+
+div.product_img ul li:hover{
+  background-color: rgb(241, 32, 32);
+}
+
+div.product_img ul li:hover a i{
+  color: aliceblue;
+}
+
